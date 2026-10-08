@@ -1,0 +1,12 @@
+# Files the notebooks create when they run
+*.pkl
+*.keras
+*.csv
+*.xlsx
+sales_report.txt
+company_data.json
+users.json
+
+# Jupyter and Python
+.ipynb_checkpoints/
+__pycache__/

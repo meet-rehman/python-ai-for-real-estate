@@ -1,0 +1,15 @@
+# Libraries used across the modules.
+# Module 1 installs specific versions of datasets and huggingface_hub in its own first cells.
+pandas
+numpy
+scipy
+scikit-learn
+plotly
+matplotlib
+pillow
+datasets
+tensorflow
+requests
+joblib
+openpyxl
+jupyter
