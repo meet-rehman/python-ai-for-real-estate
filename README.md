@@ -12,7 +12,7 @@ Each notebook is one classroom session: a short explanation of the idea, worked 
 |---|---|---|---|---|
 | 0 | [Python Fundamentals](Module_0_Python_Basics.ipynb) | The basics: data types, control flow, functions, data structures, files and JSON, regular expressions, APIs, classes, coding practice | Small business examples written into the notebook | [Colab](https://colab.research.google.com/github/meet-rehman/python-ai-for-real-estate/blob/main/Module_0_Python_Basics.ipynb) |
 | 1 | [Sentiment Analysis](Module_1_Sentiment_Analysis.ipynb) | A text classifier that labels tweets as positive, neutral or negative | TweetEval, about 60,000 real tweets | [Colab](https://colab.research.google.com/github/meet-rehman/python-ai-for-real-estate/blob/main/Module_1_Sentiment_Analysis.ipynb) |
-| 2 | Sales Forecasting | A model that forecasts monthly retail sales from past months | US monthly retail sales from FRED | To be added |
+| 2 | [Sales Forecasting](Module_2_Sales_Forecasting.ipynb) | A model that forecasts monthly retail sales from past months | US monthly retail sales from FRED (series RSXFSN, not seasonally adjusted) | [Colab](https://colab.research.google.com/github/meet-rehman/python-ai-for-real-estate/blob/main/Module_2_Sales_Forecasting.ipynb) |
 | 3 | [Computer Vision](Module_3_Computer_Vision.ipynb) | A model that recognises the room type in a property photo | MIT Indoor Scenes, 6 room types | [Colab](https://colab.research.google.com/github/meet-rehman/python-ai-for-real-estate/blob/main/Module_3_Computer_Vision.ipynb) |
 
 ## What each module teaches
@@ -23,8 +23,8 @@ Nine short parts with business examples such as VAT, break-even and inventory va
 **Module 1: Sentiment Analysis** (75 to 90 minutes)
 Cleaning social media text, TF-IDF, four handcrafted features, a Naive Bayes classifier and an sklearn Pipeline. The model is trained on a 5,000-tweet sample for classroom speed and reaches 50.7% accuracy on 12,284 held-out tweets across three classes. That weak result is kept on purpose. The session is about reading it: the confusion matrix shows that the model misses most negative tweets, and the students work out why.
 
-**Module 2: Sales Forecasting** (75 to 90 minutes, to be added)
-Trend and seasonality, date features, cyclical encoding, lag and rolling features, a split by date instead of a random split, linear regression, and a recursive forecast for the next three months. A section on reading coefficients explains why features on different scales cannot be compared directly.
+**Module 2: Sales Forecasting** (75 to 90 minutes)
+Trend and seasonality, date features, cyclical encoding, lag and rolling features, a split by date instead of a random split, linear regression, and a recursive forecast for the next three months. A section on reading coefficients explains why features on different scales cannot be compared directly. In the stored run (data to August 2026) the model has a mean error of 2.8% on the months from January 2023 onward.
 
 **Module 3: Computer Vision** (75 to 90 minutes)
 Images as arrays of numbers, then three models on the same task so the students see what each step adds:
